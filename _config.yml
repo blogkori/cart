@@ -38,14 +38,14 @@ defaults:
   -
     scope:
       path: ""
-      type: "products"
+      type: "cart/products"
     values:
-      layout: "product"
+      layout: "cart/product"
   -
     scope:
       path: ""
     values:
-      layout: "page"
+      layout: "cart/page"
   -
     scope:
       path: "index.html"
